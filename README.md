@@ -30,7 +30,7 @@
 
 * SSL and TLS are security protocols that make data secure on the Web. They are the lock on a web browser with a certificate that the site is safe.
 
-#Browser
+# Browser
 * Browsers have the following components: user interface, browser engine, rendering engine, networking, Javascript interpreter, ui backend, & data storage (for cookies).
 
 * Chrome uses V8 as its Javascript interpreter and Blink as its browser engine.
