@@ -35,4 +35,4 @@
 
 * Chrome uses V8 as its Javascript interpreter and Blink as its browser engine.
 
-* Rendering engine will parse HTML to construct the DOM tree. Then parse CSS to construct a render tree. Then map the two trees together to "paint" the page.
+* Rendering engine will parse HTML to construct the DOM tree. Then parse CSS to construct a CSSOM tree. Then both will be merged into a render tree. Then that will become a layout tree, finally it will be "painted" to the page.
