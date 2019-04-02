@@ -38,4 +38,4 @@
 * Rendering engine will parse HTML to construct the DOM tree. Then parse CSS to construct a CSSOM tree. Then both will be merged into a render tree. Then that will become a layout tree, finally it will be "painted" to the page.
 
 #DNS
-* If your browser can't find an IP address that's been cached, it will send a query to the Resolving Name Server (handled by ISP) for the IP Address. The RNS will locate the Root Server which knows where to find .com, .org, etc. Then that will query the Top Level Domain Server which will get info from the Authoritative Name Server with help from the Registrar (where the domain is registered). The IP Address from the Domain Level Name Server will now be found.
+* If your browser can't find an IP address that's been cached, it will send a query to the Resolving Name Server (handled by ISP) for the IP Address. The RNS will locate the Root Server which knows where to find .com, .org, etc. Then that will query the Top Level Domain Server, or Authoritative Name Server, with help from the Registrar (where the domain is registered). The IP Address from the Domain Level Name Server will now be found.
