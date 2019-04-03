@@ -45,6 +45,8 @@
 
 * A server isn't always one computer, it can be many.
 
-* Requests consist of method (GET,POST), path (/), version of protocol (HTTP 1.1 or 2.0), and Headers (additional info). A body is present for POST requests because those are used for things like sending data from HTML forms.
+* Requests consist of method (GET, POST), path (/...), version of protocol (HTTP 1.1 or 2.0), and Headers (additional info). A body is present for POST requests because those are used for things like sending data from HTML forms.
 
 * Responses consist of version (HTTP 1.1 or 2.0), status code (200 or 404), status message (OK), and Headers. And sometimes a body containing the fetched resource.
+
+* 1xx status codes are information, 2xx are success, 3xx are redirection, 4xx are client side errors, 5xx are server side errors.
