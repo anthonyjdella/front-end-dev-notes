@@ -37,5 +37,14 @@
 
 * Rendering engine will parse HTML to construct the DOM tree. Then parse CSS to construct a CSSOM tree. Then both will be merged into a render tree. Then that will become a layout tree, finally it will be "painted" to the page.
 
-#DNS
+# DNS
 * If your browser can't find an IP address that's been cached, it will send a query to the Resolving Name Server (handled by ISP) for the IP Address. The RNS will locate the Root Server which knows where to find .com, .org, etc. Then that will query the Top Level Domain Server, or Authoritative Name Server, with help from the Registrar (where the domain is registered). The IP Address from the Domain Level Name Server will now be found.
+
+# HTTP
+* Within the 4 layers of TCP/IP, HTTP is the top layer (application layer). So although things go from client to server, routers and modems are in between them (on different layers).
+
+* A server isn't always one computer, it can be many.
+
+* Requests consist of method (GET,POST), path (/), version of protocol (HTTP 1.1 or 2.0), and Headers (additional info). A body is present for POST requests because those are used for things like sending data from HTML forms.
+
+* Responses consist of version (HTTP 1.1 or 2.0), status code (200 or 404), status message (OK), and Headers. And sometimes a body containing the fetched resource.
